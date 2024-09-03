@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="roshan.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Roshan<span>Kumar</span></a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <label for="sidebar-active" class="close-sidebar-active">
+                <i class='bx bx-x'></i>
+            </label>
+            <a href="index.html" class="ease" >Home</a>
+            <a href="education.html" class="ease">Eduaction</a>
+            <a href="skill.html" class="active">Skills</a>
+            <a href="service.html" class="ease">Service</a>
+            <a href="contact.html" class="ease">Contact</a>
+            
+            <a>
+                <label class="switch">
+                    <input onclick="change()"  type="checkbox">
+                    <span class="slider"></span>
+                </label>
+            </a>
+        </nav>
+    </header>
+    <a href="chatbot.html">
+        <button class="chatbot-toggler">
+            <span class="material-symbols-rounded">mode_comment</span>
+            <span class="material-symbols-outlined">close</span>
+        </button>
+    </a>
+</body>
+</html>
